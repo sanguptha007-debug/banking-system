@@ -44,5 +44,5 @@ jobs:
         context: .
         push: true
         tags: |
-          sangupta/banking-app:${{ steps.vars.outputs.sha_short }}
-          sangupta/banking-app:latest
+          sanguptha/banking-app:${{ steps.vars.outputs.sha_short }}
+          sanguptha/banking-app:latest
